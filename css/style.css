@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 body {
   background: black;
+  font-family: "Roboto", sans-serif;
 }
 .center {
   display: flex;
@@ -16,7 +18,7 @@ body {
 }
 .box {
   width: 350px;
-  height: 250px;
+  height: 300px;
   margin: 10px;
   flex-direction: column;
   background: white;
@@ -35,7 +37,7 @@ body {
   top: 50px;
   left: 20px;
   width: 5px;
-  height: 150px;
+  height: 225px;
   border-radius: 50px;
   transition: all 0.4s;
   background: linear-gradient(147deg, #ffe538 0%, #ff2525 74%);
