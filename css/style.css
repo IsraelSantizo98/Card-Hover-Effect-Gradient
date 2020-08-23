@@ -4,7 +4,21 @@
   padding: 0;
 }
 body {
-  background: black;
+  background-image: linear-gradient(
+    to right top,
+    #6ba3d1,
+    #6fa4d5,
+    #73a5da,
+    #78a6de,
+    #7ea7e2,
+    #75a1e6,
+    #6e9aeb,
+    #6993ee,
+    #5683f2,
+    #4771f3,
+    #3e5ef3,
+    #3e48f0
+  );
   font-family: "Roboto", sans-serif;
 }
 .center {
